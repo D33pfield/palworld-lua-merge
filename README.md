@@ -43,5 +43,5 @@ A personal merge of a mods I play with on Palworld
 To uninstall the mod, follow these steps:
 1. Open `mods.txt` in the "Mods" folder.
 2. Remove the line `palworld-lua-merge : 1`
-3. Delete the 'palworld-lua-merge' located in 'Palworld\Pal\Binaries\Win64\Mods'
+3. Delete the `palworld-lua-merge` located in `Palworld\Pal\Binaries\Win64\Mods`
 4. Save the file.
