@@ -27,12 +27,12 @@ A personal merge of a mods I play with on Palworld
 
 ## Installation Instructions
 ### Steam:
-1. Extract `UE4SS_Xinput.zip` to `Palworld\Pal\Binaries\Win64\`. (A "Mods" folder will appear inside the Win64 folder.)
+1. Extract `UE4SS_Xinput.zip` to `Palworld\Pal\Binaries\Win64\`
 2. Extract this mod to `Palworld\Pal\Binaries\Win64\Mods`. (The `palworld-lua-merge` folder should be inside the "Mods" folder.)
 3. Open `mods.txt` in the "Mods" folder and add the following line: `palworld-lua-merge : 1`
 
 ### Gamepass:
-1. Extract `UE4SS_Xinput.zip` to `..\Users\...Appdata\Local\Pal\Saved\Config\WinGDK\`. (A "Mods" folder will appear inside the WinGDK folder.)
+1. Extract `UE4SS_Xinput.zip` to `..\Users\...Appdata\Local\Pal\Saved\Config\WinGDK\`
    - Alternatively, extracting to `\XboxGames\Palworld\Content\Pal\Binaries\WinGDK\` may help.
 2. Rename `xinput1_3` to `xinput1_4`.
 3. In the `UE4SS-settings.ini` file, set `bUseUObjectArrayCache` to `false`.
@@ -42,5 +42,6 @@ A personal merge of a mods I play with on Palworld
 ## Uninstallation
 To uninstall the mod, follow these steps:
 1. Open `mods.txt` in the "Mods" folder.
-2. Change the line `palworld-lua-merge : 1` to `palworld-lua-merge : 0`.
-3. Save the file.
+2. Remove the line `palworld-lua-merge : 1`
+3. Delete the 'palworld-lua-merge' located in 'Palworld\Pal\Binaries\Win64\Mods'
+4. Save the file.
